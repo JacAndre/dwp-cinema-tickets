@@ -23,7 +23,7 @@ public class TicketServiceImpl implements TicketService {
         int totalSeats() {
             return adultTickets + childTickets;
         }
-    };
+    }
 
     public TicketServiceImpl(TicketPaymentService ticketPaymentService, SeatReservationService seatReservationService) {
         this.ticketPaymentService = ticketPaymentService;
